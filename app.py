@@ -68,7 +68,7 @@ class FileUpload(Resource):
         module.train_model()
 
         return jsonify({
-            'url': 'https://mvpzao.herokuapp.com',
+            'url': 'https://gallifreylabs-hartnell.herokuapp.com',
             'status': 'success',
             'token': token
         })
